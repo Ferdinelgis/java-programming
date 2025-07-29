@@ -1,0 +1,22 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner s=new Scanner(System.in);
+        Float a=s.nextFloat();
+        int b=s.nextInt();
+        int c=s.nextInt();
+        int d=s.nextInt();
+        System.out.println((int)Math.floor(a));
+        System.out.println((int)Math.ceil(a));
+        System.out.println((int)Math.sqrt(b));
+        System.out.println((int)Math.pow(c,d));
+        
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+    }
+}
