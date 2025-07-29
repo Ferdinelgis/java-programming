@@ -1,0 +1,17 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner a=new Scanner(System.in);
+        int b=a.nextInt();
+        float c=a.nextFloat();
+        System.out.println(b);
+        System.out.printf("%.2f",c);
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+    }
+}
