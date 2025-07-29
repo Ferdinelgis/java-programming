@@ -1,0 +1,22 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner s=new Scanner(System.in);
+        int a=s.nextInt();
+        int b=s.nextInt();
+        int c=s.nextInt();
+        int d=s.nextInt();
+        int e=s.nextInt();
+        float f=((float)(0.5*a*b));
+        float g=((float)(c+d+e));
+        System.out.printf("Area of Triangle is %.2f\n",f);
+        System.out.printf("Perimeter of Triangle is %.2f",g);
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+    }
+}
